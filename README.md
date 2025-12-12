@@ -13,3 +13,16 @@ Update the database credentials in the code:
 Java
 private static final String USER = "root";
 private static final String PASSWORD = "your_mysql_password";
+How to Run
+Make sure MySQL is running and the hospital_db database with patients table is created.
+Update database credentials in HospitalSystem.java if needed:
+Java
+private static final String USER = "root";
+private static final String PASSWORD = "your_mysql_password";
+Compile the Java program:
+Bash
+javac HospitalSystem.java
+Run the program:
+Bash
+java HospitalSystem
+Use the menu in the console to add, update, view, or search patient records.
